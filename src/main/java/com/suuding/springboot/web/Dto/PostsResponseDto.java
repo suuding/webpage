@@ -1,8 +1,10 @@
 package com.suuding.springboot.web.Dto;
 
 import com.suuding.springboot.domain.posts.Posts;
+import lombok.Getter;
 
 //post응답dto
+@Getter
 public class PostsResponseDto {
 
     private Long id;
