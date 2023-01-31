@@ -57,7 +57,7 @@ var main = {
         var id = $('#id').val();
 
         $.ajax({
-            type: 'DELECTE',
+            type: 'DELETE',
             url: '/api/v1/posts/'+id,
             dataType: 'json',
             contentType: 'application/json; charset=utf-8'
