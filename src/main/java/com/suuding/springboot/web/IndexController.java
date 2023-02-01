@@ -1,5 +1,6 @@
 package com.suuding.springboot.web;
 
+import com.suuding.springboot.config.auth.LoginUser;
 import com.suuding.springboot.config.auth.dto.SessionUser;
 import com.suuding.springboot.service.posts.PostsService;
 import com.suuding.springboot.web.Dto.PostsResponseDto;
@@ -19,10 +20,11 @@ public class IndexController {
     private final PostsService postsService;
     private final HttpSession httpSession;
 
+    //@LoginUser 사용하면 세션정보 가져올 수 있음
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+        //SessionUser user = (SessionUser) httpSession.getAttribute("user");
 
         if (user != null) {
             model.addAttribute("userName", user.getName());
