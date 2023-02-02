@@ -4,7 +4,6 @@ import com.suuding.springboot.config.auth.LoginUser;
 import com.suuding.springboot.config.auth.dto.SessionUser;
 import com.suuding.springboot.service.posts.PostsService;
 import com.suuding.springboot.web.Dto.PostsResponseDto;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
