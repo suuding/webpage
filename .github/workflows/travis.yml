@@ -1,21 +1,26 @@
-language: java
-jdk:
-  - openjdk8
 
-branches:
-  only:
-    - main
+name: travis
 
-# Travis CI 서버의 Home
-cache:
-  directories:
-    - '$HOME/.m2/repository'
-    - '$HOME/.gradle'
+on:
+  workflow_dispatch:
 
-script: "./gradlew clean build"
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-# CI 실행 완료시 메일로 알람
-notifications:
-  email:
-    recipients:
-      - tngus4789@naver.com
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+        shell: bash
+
+      - name: Build with Gradle
+        run: ./gradlew build
+        shell: bash
