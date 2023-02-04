@@ -10,7 +10,7 @@ var main = {
         });
         $('#btn-delete').on('click', function () {
             _this.delete();
-        })
+        });
     },
     save : function () {
         var data = {
@@ -30,7 +30,7 @@ var main = {
             window.location.href='/';
         }).fail(function () {
             alert(JSON.stringify(error));
-        })
+        });
     },
     update : function() {
         var data = {
