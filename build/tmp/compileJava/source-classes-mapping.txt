@@ -1,5 +1,5 @@
-com/suuding/springboot/web/HelloController.java
- com.suuding.springboot.web.HelloController
+com/suuding/springboot/web/PostsApiController.java
+ com.suuding.springboot.web.PostsApiController
 com/suuding/springboot/Application.java
  com.suuding.springboot.Application
 com/suuding/springboot/config/WebConfig.java
@@ -7,12 +7,12 @@ com/suuding/springboot/config/WebConfig.java
 com/suuding/springboot/domain/user/User.java
  com.suuding.springboot.domain.user.User
  com.suuding.springboot.domain.user.User$UserBuilder
-com/suuding/springboot/config/auth/dto/SessionUser.java
- com.suuding.springboot.config.auth.dto.SessionUser
+com/suuding/springboot/web/IndexController.java
+ com.suuding.springboot.web.IndexController
 com/suuding/springboot/web/Dto/PostsResponseDto.java
  com.suuding.springboot.web.Dto.PostsResponseDto
-com/suuding/springboot/domain/posts/PostsRepository.java
- com.suuding.springboot.domain.posts.PostsRepository
+com/suuding/springboot/service/posts/PostsService.java
+ com.suuding.springboot.service.posts.PostsService
 com/suuding/springboot/web/Dto/PostsListResponseDto.java
  com.suuding.springboot.web.Dto.PostsListResponseDto
 com/suuding/springboot/config/JpaConfig.java
@@ -42,14 +42,14 @@ com/suuding/springboot/config/auth/SecurityConfig.java
  com.suuding.springboot.config.auth.SecurityConfig
 com/suuding/springboot/config/auth/LoginUser.java
  com.suuding.springboot.config.auth.LoginUser
+com/suuding/springboot/web/HelloWorldController.java
+ com.suuding.springboot.web.HelloWorldController
 com/suuding/springboot/web/Dto/PostsSaveRequestDto.java
  com.suuding.springboot.web.Dto.PostsSaveRequestDto
  com.suuding.springboot.web.Dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/suuding/springboot/web/PostsApiController.java
- com.suuding.springboot.web.PostsApiController
-com/suuding/springboot/web/IndexController.java
- com.suuding.springboot.web.IndexController
-com/suuding/springboot/service/posts/PostsService.java
- com.suuding.springboot.service.posts.PostsService
-com/suuding/springboot/web/HelloWorldController.java
- com.suuding.springboot.web.HelloWorldController
+com/suuding/springboot/domain/posts/PostsRepository.java
+ com.suuding.springboot.domain.posts.PostsRepository
+com/suuding/springboot/config/auth/dto/SessionUser.java
+ com.suuding.springboot.config.auth.dto.SessionUser
+com/suuding/springboot/web/HelloController.java
+ com.suuding.springboot.web.HelloController
