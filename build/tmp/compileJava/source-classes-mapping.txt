@@ -51,3 +51,5 @@ com/suuding/springboot/web/IndexController.java
  com.suuding.springboot.web.IndexController
 com/suuding/springboot/service/posts/PostsService.java
  com.suuding.springboot.service.posts.PostsService
+com/suuding/springboot/web/HelloWorldController.java
+ com.suuding.springboot.web.HelloWorldController
