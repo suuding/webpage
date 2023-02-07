@@ -53,7 +53,7 @@ sourceSets {
 }
 
 processResources {
-    dependsOn "buildReact"
+    dependsOn "copyReactBuildFiles"
 }
 
 task buildReact(type: Exec) {
