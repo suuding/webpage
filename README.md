@@ -1,2 +1,7 @@
 # webpage
-2023_webpage
+
+기본적인 게시판을 구현한 웹 서비스를 만들었다.
+
+## 기술 스택
+
+<img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white"> <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src='https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white'>
